@@ -48,7 +48,7 @@ xhprof.output_dir=/path/to/data
 
 ### Usage with xhprof or tideways
 
-## Nginx
+## Nginx(recommendatory)
 
 pass the auto_prepend_file to PHP-FPM
 
