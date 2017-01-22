@@ -11,7 +11,7 @@ $ignoredDomains = array();
 //$ignoredFunctions = array('call_user_func', 'call_user_func_array', 'socket_select');
 
 function getExtensionName() {
-    return 'xhprof';
+    // return 'xhprof';
     if (extension_loaded('tideways')) {
         return 'tideways';
     } elseif (extension_loaded('xhprof')) {
