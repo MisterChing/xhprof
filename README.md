@@ -1,4 +1,4 @@
-# xhprof + tideways php profiler
+# xhprof or tideways php profiler
 
 ## Requirement
 - xhprof or tideways
