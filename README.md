@@ -2,10 +2,17 @@
 
 ## Requirement
 - xhprof or tideways
+- graphviz
 
 ## Installation
 
-### Install xhprof
+### install graphviz
+
+~~~
+yum install -y graphviz
+~~~
+
+### install xhprof
 
 ~~~
 git clone https://github.com/Yaoguais/phpng-xhprof.git
