@@ -23,10 +23,12 @@ add the configuration into php.ini
 extension=phpng_xhprof.so
 xhprof.output_dir=/path/to/data
 ;xhprof.count_prefix=
+~~~
 
 ### install tideways
 
 ~~~
+
 git clone https://github.com/tideways/php-profiler-extension.git
 cd php-profiler-extension
 phpize
@@ -35,6 +37,7 @@ make && make install
 ~~~
 
 add the configuration into php.ini
+
 ~~~
 
 [tideways]
