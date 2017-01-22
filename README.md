@@ -8,7 +8,6 @@
 ### Install xhprof
 
 ~~~
-
 git clone https://github.com/Yaoguais/phpng-xhprof.git
 cd phpng-xhprof
 phpize
@@ -17,8 +16,8 @@ make && make install
 ~~~
 
 add the configuration into php.ini
-~~~
 
+~~~
 [xhprof]
 extension=phpng_xhprof.so
 xhprof.output_dir=/path/to/data
@@ -28,7 +27,6 @@ xhprof.output_dir=/path/to/data
 ### install tideways
 
 ~~~
-
 git clone https://github.com/tideways/php-profiler-extension.git
 cd php-profiler-extension
 phpize
@@ -39,7 +37,6 @@ make && make install
 add the configuration into php.ini
 
 ~~~
-
 [tideways]
 extension=tideways.so
 tideways.auto_prepend_library=0
@@ -53,7 +50,6 @@ xhprof.output_dir=/path/to/data
 pass the auto_prepend_file to PHP-FPM
 
 ~~~
-
 fastcgi_param PHP_VALUE "auto_prepend_file=/path/to/gen.php";
 ~~~
 
@@ -62,7 +58,6 @@ fastcgi_param PHP_VALUE "auto_prepend_file=/path/to/gen.php";
 add the configuration into php-fpm configure file
 
 ~~~
-
 php_admin_value[auto_prepend_file]=/path/to/gen.php
 ~~~
 
