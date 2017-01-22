@@ -43,9 +43,9 @@ tideways.auto_prepend_library=0
 xhprof.output_dir=/path/to/data
 ~~~
 
-### Usage with xhprof or tideways
+## Usage with xhprof or tideways
 
-## Nginx(recommendatory)
+### Nginx (recommendatory)
 
 pass the auto_prepend_file to PHP-FPM
 
@@ -53,7 +53,7 @@ pass the auto_prepend_file to PHP-FPM
 fastcgi_param PHP_VALUE "auto_prepend_file=/path/to/gen.php";
 ~~~
 
-## PHP-FPM
+### PHP-FPM
 
 add the configuration into php-fpm configure file
 
@@ -61,7 +61,7 @@ add the configuration into php-fpm configure file
 php_admin_value[auto_prepend_file]=/path/to/gen.php
 ~~~
 
-### Documentation
+## Documentation
 
 [Tideways Profiler website](https://tideways.io/profiler/docs/setup/profiler-php-pecl-extension)
 
