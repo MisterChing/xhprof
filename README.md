@@ -70,7 +70,7 @@ php_admin_value[auto_prepend_file]=/path/to/gen.php
 
 ## Documentation
 
-[Tideways Profiler website](https://tideways.io/profiler/docs/setup/profiler-php-pecl-extension)
+[Tideways Profiler website](https://github.com/tideways/php-xhprof-extension)
 
 [Xhprof](https://github.com/Yaoguais/phpng-xhprof)
 
